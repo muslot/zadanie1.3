@@ -1,13 +1,13 @@
-const OneAnimalBtn=document.querySelector("#OneAnimalBtn");
+const OneAnimalBtn = document.querySelector("#OneAnimalBtn");
 const OneAnimalTbl = document.querySelector("#OneAnimalTbl");
 const dolphin = document.querySelector("#dolphin");
 const dolphinBtn = document.querySelector("#dolphinBtn");
-const TwoAnimalBtn=document.querySelector("#TwoAnimalBtn");
-const TwoAnimalTbl=document.querySelector("#TwoAnimalTbl");
-const dogBtn=document.querySelector("#dogBtn");
-const dogs=document.querySelector("#dogs");
-const catsBtn=document.querySelector("#catsBtn");
-const cats=document.querySelector("#cats");
+const TwoAnimalBtn = document.querySelector("#TwoAnimalBtn");
+const TwoAnimalTbl = document.querySelector("#TwoAnimalTbl");
+const dogBtn = document.querySelector("#dogBtn");
+const dogs = document.querySelector("#dogs");
+const catsBtn = document.querySelector("#catsBtn");
+const cats = document.querySelector("#cats");
 
 OneAnimalBtn.addEventListener("click" , ()=> {
     OneAnimalTbl.classList.toggle("hide");
